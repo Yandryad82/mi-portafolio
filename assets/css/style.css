@@ -460,9 +460,11 @@ nav{
         text-decoration: underline solid var(--white);
     }  
     
+    /*
     .contact-circle:hover{
         margin-top: 1rem;
     }
+    */
 }
 
 
