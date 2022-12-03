@@ -314,6 +314,41 @@ nav{
     top: -37px;
 }
 
+/* CORAZON */
+
+.final-corazon{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.808);
+    padding: 1rem;
+}
+
+.heart{
+    display: flex;
+    position: relative;
+}
+
+.corazon{
+    position: absolute;
+    left: -7.3rem;
+    align-items: center;
+}
+
+.imagen2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: -12%;
+    top: -37px;
+}
+
+.imagen3{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -11%;
+    top: -8px;
+}
 
 /* RESPONSIVIDAD */
 
@@ -404,20 +439,20 @@ nav{
         top: 91px;
     }
 
-    .imagenes img{
-        width: 200px;
-        height: 200px;
-    }
-
     .imagen2{
+        width: 80px;
+        height: 80px;
         position: absolute;
-        right: -4%;
-        top: 100px;
+        right: -3%;
+        top: 45%;
     }
-
-    .imagen2 img{
-        width: 150px;
-        height: 150px;
+    
+    .imagen3{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        left: -4%;
+        top: 60px;
     }
 
     .navbar-item:hover{
